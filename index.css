@@ -1,0 +1,18 @@
+.gradientbg {
+  background-image: linear-gradient(
+    to top,
+    #e7e9f3 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+
+body {
+  height: 100vh;
+}
+
+.main-title {
+  font-size: 1.75rem;
+  color: #37229d;
+  text-transform: uppercase;
+}
