@@ -71,7 +71,7 @@ class TablaUsuarios {
       htmlUsuarios += `<tr>
         <th scope="row">${usuario.id}</th>
         <td>${usuario.nombre}</td>
-        <td>${usuario.correo}</td>
+        <td class="d-none d-sm-block">${usuario.correo}</td>
       </tr>`;
     });
 
